@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   hlf-k8s:
   - apiVersion: v1
-    created: "2019-11-05T16:40:22.856096456Z"
+    created: "2019-11-05T18:11:56.000690755+01:00"
     description: Tolling package for Substra that configure the network
     digest: f548334ae6f6f5c7892ea65acde84d2da6d46ca992ede0701622c828b66ea8ec
     home: https://substra.org/
@@ -17,7 +17,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.9.tgz
     version: 1.0.0-alpha.9
   - apiVersion: v1
-    created: "2019-11-05T16:40:22.850538445Z"
+    created: "2019-11-05T18:11:55.995749299+01:00"
     description: Tolling package for Substra that configure the network
     digest: e35683b653e2b7506e263a78f1b86e4341c32d10ff1dfa9a5f85b75d2a9c00af
     home: https://substra.org/
@@ -33,7 +33,22 @@ entries:
     version: 1.0.0-alpha.8
   substra-backend:
   - apiVersion: v1
-    created: "2019-11-05T16:40:22.860958137Z"
+    created: "2019-11-05T18:11:56.005464703+01:00"
+    description: Main package for Substra
+    digest: ff0f3e8ab72088bea89849e67bf7383b4348d0a516c84d6d8fb328515ef10e79
+    home: https://substra.org/
+    icon: https://avatars1.githubusercontent.com/u/38098422?s=200&v=4
+    maintainers:
+    - email: clement@gautier.im
+      name: ClementGautier
+    name: substra-backend
+    sources:
+    - https://github.com/SubstraFoudation/substra-backend
+    urls:
+    - substra-backend-1.0.0-alpha.12.tgz
+    version: 1.0.0-alpha.12
+  - apiVersion: v1
+    created: "2019-11-05T18:11:56.002951172+01:00"
     description: Main package for Substra
     digest: 41841a206ccebbd8cb05957ca413282c7dfc132bafd3ed0ae41950828c18070f
     home: https://substra.org/
@@ -49,7 +64,7 @@ entries:
     version: 1.0.0-alpha.11
   substra-frontend:
   - apiVersion: v1
-    created: "2019-11-05T16:40:22.862679879Z"
+    created: "2019-11-05T18:11:56.00665164+01:00"
     description: Main package for Substra Frontend
     digest: a1335a725d4e084371cc8b9fdf9aeefdb76f21b4d502f41221221182c89431df
     home: https://substra.org/
@@ -63,4 +78,4 @@ entries:
     urls:
     - substra-frontend-1.0.0-alpha.2.tgz
     version: 1.0.0-alpha.2
-generated: "2019-11-05T16:40:22.844059338Z"
+generated: "2019-11-05T18:11:55.990531918+01:00"
