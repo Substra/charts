@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   hlf-k8s:
   - apiVersion: v1
-    created: "2019-11-27T20:46:16.884612798Z"
+    created: "2019-12-03T13:23:17.821315164Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -37,7 +37,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.11.tgz
     version: 1.0.0-alpha.11
   - apiVersion: v1
-    created: "2019-11-27T20:46:16.87217862Z"
+    created: "2019-12-03T13:23:17.809446187Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -72,7 +72,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.10.tgz
     version: 1.0.0-alpha.10
   - apiVersion: v1
-    created: "2019-11-27T20:46:16.904651456Z"
+    created: "2019-12-03T13:23:17.83855164Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -107,7 +107,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.9.tgz
     version: 1.0.0-alpha.9
   - apiVersion: v1
-    created: "2019-11-27T20:46:16.896116429Z"
+    created: "2019-12-03T13:23:17.828798584Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -143,7 +143,7 @@ entries:
     version: 1.0.0-alpha.8
   substra-backend:
   - apiVersion: v1
-    created: "2019-11-27T20:46:16.922101733Z"
+    created: "2019-12-03T13:23:17.853230021Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -167,7 +167,7 @@ entries:
     - substra-backend-1.0.0-alpha.13.tgz
     version: 1.0.0-alpha.13
   - apiVersion: v1
-    created: "2019-11-27T20:46:16.916998378Z"
+    created: "2019-12-03T13:23:17.848931Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -191,7 +191,7 @@ entries:
     - substra-backend-1.0.0-alpha.12.tgz
     version: 1.0.0-alpha.12
   - apiVersion: v1
-    created: "2019-11-27T20:46:16.912171717Z"
+    created: "2019-12-03T13:23:17.842640295Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -216,14 +216,14 @@ entries:
     version: 1.0.0-alpha.11
   substra-frontend:
   - apiVersion: v1
-    created: "2019-11-27T20:46:16.927834762Z"
+    created: "2019-12-03T13:23:17.855951248Z"
     dependencies:
     - condition: redis.enabled
       name: redis
       repository: https://kubernetes-charts.storage.googleapis.com/
       version: ~9.0.1
     description: Main package for Substra Frontend
-    digest: 2dfe5f081d7e1cb9a2d26bcb94fa6de7701a00e0680720e2218ae4c2c6effdf5
+    digest: b515e78c1dfec7f584be892517ca5a4c1df84ed9481e81cc0eb2e9e12a49e834
     home: https://substra.org/
     icon: https://avatars1.githubusercontent.com/u/38098422?s=200&v=4
     maintainers:
@@ -235,4 +235,4 @@ entries:
     urls:
     - substra-frontend-1.0.0-alpha.2.tgz
     version: 1.0.0-alpha.2
-generated: "2019-11-27T20:46:16.862359608Z"
+generated: "2019-12-03T13:23:17.80117291Z"
