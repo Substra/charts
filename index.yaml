@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   hlf-k8s:
   - apiVersion: v1
-    created: "2019-12-03T13:23:17.821315164Z"
+    created: "2019-12-04T08:33:34.576326037Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -37,7 +37,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.11.tgz
     version: 1.0.0-alpha.11
   - apiVersion: v1
-    created: "2019-12-03T13:23:17.809446187Z"
+    created: "2019-12-04T08:33:34.566023627Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -72,7 +72,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.10.tgz
     version: 1.0.0-alpha.10
   - apiVersion: v1
-    created: "2019-12-03T13:23:17.83855164Z"
+    created: "2019-12-04T08:33:34.59278662Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -107,7 +107,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.9.tgz
     version: 1.0.0-alpha.9
   - apiVersion: v1
-    created: "2019-12-03T13:23:17.828798584Z"
+    created: "2019-12-04T08:33:34.585608923Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -143,7 +143,7 @@ entries:
     version: 1.0.0-alpha.8
   substra-backend:
   - apiVersion: v1
-    created: "2019-12-03T13:23:17.853230021Z"
+    created: "2019-12-04T08:33:34.608158354Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -167,7 +167,7 @@ entries:
     - substra-backend-1.0.0-alpha.13.tgz
     version: 1.0.0-alpha.13
   - apiVersion: v1
-    created: "2019-12-03T13:23:17.848931Z"
+    created: "2019-12-04T08:33:34.602891097Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -191,7 +191,7 @@ entries:
     - substra-backend-1.0.0-alpha.12.tgz
     version: 1.0.0-alpha.12
   - apiVersion: v1
-    created: "2019-12-03T13:23:17.842640295Z"
+    created: "2019-12-04T08:33:34.599004172Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -216,7 +216,7 @@ entries:
     version: 1.0.0-alpha.11
   substra-frontend:
   - apiVersion: v1
-    created: "2019-12-03T13:23:17.855951248Z"
+    created: "2019-12-04T08:33:34.611538652Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -235,4 +235,4 @@ entries:
     urls:
     - substra-frontend-1.0.0-alpha.2.tgz
     version: 1.0.0-alpha.2
-generated: "2019-12-03T13:23:17.80117291Z"
+generated: "2019-12-04T08:33:34.558270207Z"
