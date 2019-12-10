@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   hlf-k8s:
   - apiVersion: v1
-    created: "2019-12-10T16:59:17.593329721Z"
+    created: "2019-12-10T17:00:01.124045493Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -37,7 +37,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.11.tgz
     version: 1.0.0-alpha.11
   - apiVersion: v1
-    created: "2019-12-10T16:59:17.583018465Z"
+    created: "2019-12-10T17:00:01.112418303Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -59,7 +59,7 @@ entries:
       repository: https://kubernetes-charts.storage.googleapis.com/
       version: ~1.20.0
     description: Tolling package for Substra that configure the network
-    digest: 1ff778b397f50d51e55f1e8d3722e6300545bc1039eeee249541617e22e03095
+    digest: 2d9fb0865fb1502bd5410222ef077a82e92020ff94b3e9779ebf99bc84edad01
     home: https://substra.org/
     icon: https://avatars1.githubusercontent.com/u/38098422?s=200&v=4
     maintainers:
@@ -72,7 +72,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.10.tgz
     version: 1.0.0-alpha.10
   - apiVersion: v1
-    created: "2019-12-10T16:59:17.611749818Z"
+    created: "2019-12-10T17:00:01.141887302Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -107,7 +107,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.9.tgz
     version: 1.0.0-alpha.9
   - apiVersion: v1
-    created: "2019-12-10T16:59:17.6042318Z"
+    created: "2019-12-10T17:00:01.13431061Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -143,7 +143,7 @@ entries:
     version: 1.0.0-alpha.8
   substra-backend:
   - apiVersion: v1
-    created: "2019-12-10T16:59:17.629255783Z"
+    created: "2019-12-10T17:00:01.157174233Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -167,7 +167,7 @@ entries:
     - substra-backend-1.0.0-alpha.13.tgz
     version: 1.0.0-alpha.13
   - apiVersion: v1
-    created: "2019-12-10T16:59:17.624860765Z"
+    created: "2019-12-10T17:00:01.152838751Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -191,7 +191,7 @@ entries:
     - substra-backend-1.0.0-alpha.12.tgz
     version: 1.0.0-alpha.12
   - apiVersion: v1
-    created: "2019-12-10T16:59:17.616879581Z"
+    created: "2019-12-10T17:00:01.148627226Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -216,7 +216,7 @@ entries:
     version: 1.0.0-alpha.11
   substra-frontend:
   - apiVersion: v1
-    created: "2019-12-10T16:59:17.631936882Z"
+    created: "2019-12-10T17:00:01.162292242Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -235,4 +235,4 @@ entries:
     urls:
     - substra-frontend-1.0.0-alpha.2.tgz
     version: 1.0.0-alpha.2
-generated: "2019-12-10T16:59:17.572587094Z"
+generated: "2019-12-10T17:00:01.102479017Z"
