@@ -2,99 +2,9 @@ apiVersion: v1
 entries:
   hlf-k8s:
   - apiVersion: v1
-    created: "2019-12-11T15:14:47.531113907Z"
-    dependencies:
-    - alias: ca
-      condition: ca.enabled
-      name: hlf-ca
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.1.7
-    - alias: orderer
-      condition: orderer.enabled
-      name: hlf-ord
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.2.5
-    - alias: peer
-      condition: peer.enabled
-      name: hlf-peer
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.2.9
-    - condition: nginx-ingress.enabled
-      name: nginx-ingress
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.20.0
+    created: "2019-12-11T15:43:33.939347302Z"
     description: Tolling package for Substra that configure the network
-    digest: 72afd56d156c38c1dd80422f74a377be6f895864083537803ab05d9f26eadaeb
-    home: https://substra.org/
-    icon: https://avatars1.githubusercontent.com/u/38098422?s=200&v=4
-    maintainers:
-    - email: clement@gautier.im
-      name: ClementGautier
-    name: hlf-k8s
-    sources:
-    - https://github.com/SubstraFoudation/hlf-k8s
-    urls:
-    - hlf-k8s-1.0.0-alpha.12.tgz
-    version: 1.0.0-alpha.12
-  - apiVersion: v1
-    created: "2019-12-11T15:14:47.516263108Z"
-    dependencies:
-    - alias: ca
-      condition: ca.enabled
-      name: hlf-ca
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.1.7
-    - alias: orderer
-      condition: orderer.enabled
-      name: hlf-ord
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.2.5
-    - alias: peer
-      condition: peer.enabled
-      name: hlf-peer
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.2.9
-    - condition: nginx-ingress.enabled
-      name: nginx-ingress
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.20.0
-    description: Tolling package for Substra that configure the network
-    digest: 4f4497ea549697b44c08ce2d077671a479c40b03b8f90bec387f8ec27fb9ff4c
-    home: https://substra.org/
-    icon: https://avatars1.githubusercontent.com/u/38098422?s=200&v=4
-    maintainers:
-    - email: clement@gautier.im
-      name: ClementGautier
-    name: hlf-k8s
-    sources:
-    - https://github.com/SubstraFoudation/hlf-k8s
-    urls:
-    - hlf-k8s-1.0.0-alpha.11.tgz
-    version: 1.0.0-alpha.11
-  - apiVersion: v1
-    created: "2019-12-11T15:14:47.501074084Z"
-    dependencies:
-    - alias: ca
-      condition: ca.enabled
-      name: hlf-ca
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.1.7
-    - alias: orderer
-      condition: orderer.enabled
-      name: hlf-ord
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.2.5
-    - alias: peer
-      condition: peer.enabled
-      name: hlf-peer
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.2.9
-    - condition: nginx-ingress.enabled
-      name: nginx-ingress
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.20.0
-    description: Tolling package for Substra that configure the network
-    digest: 2d9fb0865fb1502bd5410222ef077a82e92020ff94b3e9779ebf99bc84edad01
+    digest: ccb1a7956d563857a450c445ecc640974af55a91e717737831b45abdbd8f51c5
     home: https://substra.org/
     icon: https://avatars1.githubusercontent.com/u/38098422?s=200&v=4
     maintainers:
@@ -107,27 +17,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.10.tgz
     version: 1.0.0-alpha.10
   - apiVersion: v1
-    created: "2019-12-11T15:14:47.554302132Z"
-    dependencies:
-    - alias: ca
-      condition: ca.enabled
-      name: hlf-ca
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.1.7
-    - alias: orderer
-      condition: orderer.enabled
-      name: hlf-ord
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.2.5
-    - alias: peer
-      condition: peer.enabled
-      name: hlf-peer
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.2.9
-    - condition: nginx-ingress.enabled
-      name: nginx-ingress
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.20.0
+    created: "2019-12-11T15:43:33.951191243Z"
     description: Tolling package for Substra that configure the network
     digest: 2761b1f43f7a451876102311b8cb196cf83cc3bfda74764deec009aff14c0423
     home: https://substra.org/
@@ -142,27 +32,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.9.tgz
     version: 1.0.0-alpha.9
   - apiVersion: v1
-    created: "2019-12-11T15:14:47.540788457Z"
-    dependencies:
-    - alias: ca
-      condition: ca.enabled
-      name: hlf-ca
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.1.7
-    - alias: orderer
-      condition: orderer.enabled
-      name: hlf-ord
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.2.5
-    - alias: peer
-      condition: peer.enabled
-      name: hlf-peer
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.2.9
-    - condition: nginx-ingress.enabled
-      name: nginx-ingress
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~1.20.0
+    created: "2019-12-11T15:43:33.944599042Z"
     description: Tolling package for Substra that configure the network
     digest: e35683b653e2b7506e263a78f1b86e4341c32d10ff1dfa9a5f85b75d2a9c00af
     home: https://substra.org/
@@ -178,16 +48,7 @@ entries:
     version: 1.0.0-alpha.8
   substra-backend:
   - apiVersion: v1
-    created: "2019-12-11T15:14:47.573537764Z"
-    dependencies:
-    - condition: rabbitmq.enabled
-      name: rabbitmq
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~6.2.5
-    - condition: postgresql.enabled
-      name: postgresql
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~6.2.0
+    created: "2019-12-11T15:43:33.96079405Z"
     description: Main package for Substra
     digest: 2efc2729f3c4a8440d6b79a1bc9bc1ca9612d8675d8758eb2aa3934c989fb1d7
     home: https://substra.org/
@@ -202,16 +63,7 @@ entries:
     - substra-backend-1.0.0-alpha.13.tgz
     version: 1.0.0-alpha.13
   - apiVersion: v1
-    created: "2019-12-11T15:14:47.565152276Z"
-    dependencies:
-    - condition: rabbitmq.enabled
-      name: rabbitmq
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~6.2.5
-    - condition: postgresql.enabled
-      name: postgresql
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~6.2.0
+    created: "2019-12-11T15:43:33.958145788Z"
     description: Main package for Substra
     digest: de95690c47c0e7c66652dd15dab27a6e881de52295de7cb4ae5be8cf3d658b4c
     home: https://substra.org/
@@ -226,16 +78,7 @@ entries:
     - substra-backend-1.0.0-alpha.12.tgz
     version: 1.0.0-alpha.12
   - apiVersion: v1
-    created: "2019-12-11T15:14:47.559689948Z"
-    dependencies:
-    - condition: rabbitmq.enabled
-      name: rabbitmq
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~6.2.5
-    - condition: postgresql.enabled
-      name: postgresql
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~6.2.0
+    created: "2019-12-11T15:43:33.955390218Z"
     description: Main package for Substra
     digest: 41841a206ccebbd8cb05957ca413282c7dfc132bafd3ed0ae41950828c18070f
     home: https://substra.org/
@@ -251,12 +94,7 @@ entries:
     version: 1.0.0-alpha.11
   substra-frontend:
   - apiVersion: v1
-    created: "2019-12-11T15:14:47.577075919Z"
-    dependencies:
-    - condition: redis.enabled
-      name: redis
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: ~9.0.1
+    created: "2019-12-11T15:43:33.962591108Z"
     description: Main package for Substra Frontend
     digest: b515e78c1dfec7f584be892517ca5a4c1df84ed9481e81cc0eb2e9e12a49e834
     home: https://substra.org/
@@ -270,4 +108,4 @@ entries:
     urls:
     - substra-frontend-1.0.0-alpha.2.tgz
     version: 1.0.0-alpha.2
-generated: "2019-12-11T15:14:47.488881208Z"
+generated: "2019-12-11T15:43:33.931445891Z"
