@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   hlf-k8s:
   - apiVersion: v1
-    created: "2019-12-11T17:35:25.604396153Z"
+    created: "2019-12-11T17:45:17.404698754Z"
     description: Tolling package for Substra that configure the network
     digest: fd63807efdd1fbc211e53e7cfed3b2b57afb251a434ca2435ba02231d7f4fa19
     home: https://substra.org/
@@ -17,7 +17,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.11.tgz
     version: 1.0.0-alpha.11
   - apiVersion: v1
-    created: "2019-12-11T17:35:25.597430715Z"
+    created: "2019-12-11T17:45:17.400072763Z"
     description: Tolling package for Substra that configure the network
     digest: ccb1a7956d563857a450c445ecc640974af55a91e717737831b45abdbd8f51c5
     home: https://substra.org/
@@ -32,7 +32,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.10.tgz
     version: 1.0.0-alpha.10
   - apiVersion: v1
-    created: "2019-12-11T17:35:25.62008137Z"
+    created: "2019-12-11T17:45:17.415644126Z"
     description: Tolling package for Substra that configure the network
     digest: 2761b1f43f7a451876102311b8cb196cf83cc3bfda74764deec009aff14c0423
     home: https://substra.org/
@@ -47,7 +47,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.9.tgz
     version: 1.0.0-alpha.9
   - apiVersion: v1
-    created: "2019-12-11T17:35:25.610694788Z"
+    created: "2019-12-11T17:45:17.411335329Z"
     description: Tolling package for Substra that configure the network
     digest: e35683b653e2b7506e263a78f1b86e4341c32d10ff1dfa9a5f85b75d2a9c00af
     home: https://substra.org/
@@ -63,7 +63,22 @@ entries:
     version: 1.0.0-alpha.8
   substra-backend:
   - apiVersion: v1
-    created: "2019-12-11T17:35:25.629105723Z"
+    created: "2019-12-11T17:45:17.427114429Z"
+    description: Main package for Substra
+    digest: ddbdc24da57ec1d201866a12d357e6322af890f09d654edad58ed6e400f92ea3
+    home: https://substra.org/
+    icon: https://avatars1.githubusercontent.com/u/38098422?s=200&v=4
+    maintainers:
+    - email: clement@gautier.im
+      name: ClementGautier
+    name: substra-backend
+    sources:
+    - https://github.com/SubstraFoudation/substra-backend
+    urls:
+    - substra-backend-1.0.0-alpha.14.tgz
+    version: 1.0.0-alpha.14
+  - apiVersion: v1
+    created: "2019-12-11T17:45:17.424692015Z"
     description: Main package for Substra
     digest: 2efc2729f3c4a8440d6b79a1bc9bc1ca9612d8675d8758eb2aa3934c989fb1d7
     home: https://substra.org/
@@ -78,7 +93,7 @@ entries:
     - substra-backend-1.0.0-alpha.13.tgz
     version: 1.0.0-alpha.13
   - apiVersion: v1
-    created: "2019-12-11T17:35:25.626254778Z"
+    created: "2019-12-11T17:45:17.421808241Z"
     description: Main package for Substra
     digest: de95690c47c0e7c66652dd15dab27a6e881de52295de7cb4ae5be8cf3d658b4c
     home: https://substra.org/
@@ -93,7 +108,7 @@ entries:
     - substra-backend-1.0.0-alpha.12.tgz
     version: 1.0.0-alpha.12
   - apiVersion: v1
-    created: "2019-12-11T17:35:25.623172701Z"
+    created: "2019-12-11T17:45:17.417944691Z"
     description: Main package for Substra
     digest: 41841a206ccebbd8cb05957ca413282c7dfc132bafd3ed0ae41950828c18070f
     home: https://substra.org/
@@ -109,7 +124,7 @@ entries:
     version: 1.0.0-alpha.11
   substra-frontend:
   - apiVersion: v1
-    created: "2019-12-11T17:35:25.630966263Z"
+    created: "2019-12-11T17:45:17.428478397Z"
     description: Main package for Substra Frontend
     digest: b515e78c1dfec7f584be892517ca5a4c1df84ed9481e81cc0eb2e9e12a49e834
     home: https://substra.org/
@@ -123,4 +138,4 @@ entries:
     urls:
     - substra-frontend-1.0.0-alpha.2.tgz
     version: 1.0.0-alpha.2
-generated: "2019-12-11T17:35:25.589132416Z"
+generated: "2019-12-11T17:45:17.393900447Z"
