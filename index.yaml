@@ -2,7 +2,42 @@ apiVersion: v1
 entries:
   hlf-k8s:
   - apiVersion: v1
-    created: "2019-12-10T17:00:01.124045493Z"
+    created: "2019-12-11T15:14:47.531113907Z"
+    dependencies:
+    - alias: ca
+      condition: ca.enabled
+      name: hlf-ca
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ~1.1.7
+    - alias: orderer
+      condition: orderer.enabled
+      name: hlf-ord
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ~1.2.5
+    - alias: peer
+      condition: peer.enabled
+      name: hlf-peer
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ~1.2.9
+    - condition: nginx-ingress.enabled
+      name: nginx-ingress
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ~1.20.0
+    description: Tolling package for Substra that configure the network
+    digest: 72afd56d156c38c1dd80422f74a377be6f895864083537803ab05d9f26eadaeb
+    home: https://substra.org/
+    icon: https://avatars1.githubusercontent.com/u/38098422?s=200&v=4
+    maintainers:
+    - email: clement@gautier.im
+      name: ClementGautier
+    name: hlf-k8s
+    sources:
+    - https://github.com/SubstraFoudation/hlf-k8s
+    urls:
+    - hlf-k8s-1.0.0-alpha.12.tgz
+    version: 1.0.0-alpha.12
+  - apiVersion: v1
+    created: "2019-12-11T15:14:47.516263108Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -37,7 +72,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.11.tgz
     version: 1.0.0-alpha.11
   - apiVersion: v1
-    created: "2019-12-10T17:00:01.112418303Z"
+    created: "2019-12-11T15:14:47.501074084Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -72,7 +107,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.10.tgz
     version: 1.0.0-alpha.10
   - apiVersion: v1
-    created: "2019-12-10T17:00:01.141887302Z"
+    created: "2019-12-11T15:14:47.554302132Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -107,7 +142,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.9.tgz
     version: 1.0.0-alpha.9
   - apiVersion: v1
-    created: "2019-12-10T17:00:01.13431061Z"
+    created: "2019-12-11T15:14:47.540788457Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -143,7 +178,7 @@ entries:
     version: 1.0.0-alpha.8
   substra-backend:
   - apiVersion: v1
-    created: "2019-12-10T17:00:01.157174233Z"
+    created: "2019-12-11T15:14:47.573537764Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -167,7 +202,7 @@ entries:
     - substra-backend-1.0.0-alpha.13.tgz
     version: 1.0.0-alpha.13
   - apiVersion: v1
-    created: "2019-12-10T17:00:01.152838751Z"
+    created: "2019-12-11T15:14:47.565152276Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -191,7 +226,7 @@ entries:
     - substra-backend-1.0.0-alpha.12.tgz
     version: 1.0.0-alpha.12
   - apiVersion: v1
-    created: "2019-12-10T17:00:01.148627226Z"
+    created: "2019-12-11T15:14:47.559689948Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -216,7 +251,7 @@ entries:
     version: 1.0.0-alpha.11
   substra-frontend:
   - apiVersion: v1
-    created: "2019-12-10T17:00:01.162292242Z"
+    created: "2019-12-11T15:14:47.577075919Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -235,4 +270,4 @@ entries:
     urls:
     - substra-frontend-1.0.0-alpha.2.tgz
     version: 1.0.0-alpha.2
-generated: "2019-12-10T17:00:01.102479017Z"
+generated: "2019-12-11T15:14:47.488881208Z"
