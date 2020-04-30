@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   hlf-k8s:
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.326117266Z"
+    created: "2020-04-30T19:19:58.905087848Z"
     description: Tolling package for Substra that configure the network
     digest: 987d610f907fc540648c71074424302db85c6bab2705a9199614993dfe78d707
     home: https://substra.org/
@@ -17,7 +17,7 @@ entries:
     - hlf-k8s-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.310178949Z"
+    created: "2020-04-30T19:19:58.888490809Z"
     description: Tolling package for Substra that configure the network
     digest: 834179f0ee5d0b50c435986ac13f4e12b5916eaaf57a5c243bffeaa03b93265d
     home: https://substra.org/
@@ -32,7 +32,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.12.tgz
     version: 1.0.0-alpha.12
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.303152828Z"
+    created: "2020-04-30T19:19:58.881298891Z"
     description: Tolling package for Substra that configure the network
     digest: 05432579ab331310905ee88a3c88dba07bcd5e2787506b5b9b2d0782f85ef639
     home: https://substra.org/
@@ -47,7 +47,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.11.tgz
     version: 1.0.0-alpha.11
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.298097818Z"
+    created: "2020-04-30T19:19:58.876216137Z"
     description: Tolling package for Substra that configure the network
     digest: ccb1a7956d563857a450c445ecc640974af55a91e717737831b45abdbd8f51c5
     home: https://substra.org/
@@ -62,7 +62,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.10.tgz
     version: 1.0.0-alpha.10
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.319050773Z"
+    created: "2020-04-30T19:19:58.900074734Z"
     description: Tolling package for Substra that configure the network
     digest: 2761b1f43f7a451876102311b8cb196cf83cc3bfda74764deec009aff14c0423
     home: https://substra.org/
@@ -77,7 +77,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.9.tgz
     version: 1.0.0-alpha.9
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.314681424Z"
+    created: "2020-04-30T19:19:58.893120614Z"
     description: Tolling package for Substra that configure the network
     digest: e35683b653e2b7506e263a78f1b86e4341c32d10ff1dfa9a5f85b75d2a9c00af
     home: https://substra.org/
@@ -94,7 +94,7 @@ entries:
   hlf-ord:
   - apiVersion: v1
     appVersion: 1.4.3
-    created: "2020-04-30T15:17:40.326747667Z"
+    created: "2020-04-30T19:19:58.905768275Z"
     description: hlf ordrer chart fork maintained by substrafoundation
     digest: f2636bd532c93a9180366986793711df39e09b68ac21bc4128fef69212580934
     home: https://substra.org/
@@ -114,7 +114,7 @@ entries:
   hlf-peer:
   - apiVersion: v1
     appVersion: 1.4.3
-    created: "2020-04-30T15:17:40.327380882Z"
+    created: "2020-04-30T19:19:58.906363223Z"
     description: hlf peer chart fork maintained by substrafoundation
     digest: 5888c2a8843acbcef6a8723b87517d9604b32ed5ea251c2a81fb0464879b2a97
     home: https://substra.org/
@@ -133,7 +133,22 @@ entries:
     version: 1.3.0
   substra-backend:
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.383462097Z"
+    created: "2020-04-30T19:19:58.968208892Z"
+    description: Main package for Substra
+    digest: 2403c58bf352a57888d9e20843825f97ac1bc414c7a7cb2616b5cbffc6bfde7d
+    home: https://substra.org/
+    icon: https://avatars1.githubusercontent.com/u/38098422?s=200&v=4
+    maintainers:
+    - email: clement@gautier.im
+      name: ClementGautier
+    name: substra-backend
+    sources:
+    - https://github.com/SubstraFoundation/substra-backend
+    urls:
+    - substra-backend-1.0.0-alpha.29.tgz
+    version: 1.0.0-alpha.29
+  - apiVersion: v1
+    created: "2020-04-30T19:19:58.965508702Z"
     description: Main package for Substra
     digest: 2e68b5de2e78fd92e4213f1e77b1e897be19579a8640520c852f59236ce90d1f
     home: https://substra.org/
@@ -148,7 +163,7 @@ entries:
     - substra-backend-1.0.0-alpha.28.tgz
     version: 1.0.0-alpha.28
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.380647013Z"
+    created: "2020-04-30T19:19:58.960717022Z"
     description: Main package for Substra
     digest: a2011520ceef3da56ba4b56c2312e57fb15429bb7ac946d8fbc9dced20c7e0b1
     home: https://substra.org/
@@ -163,7 +178,7 @@ entries:
     - substra-backend-1.0.0-alpha.27.tgz
     version: 1.0.0-alpha.27
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.378021197Z"
+    created: "2020-04-30T19:19:58.957939446Z"
     description: Main package for Substra
     digest: 7968c99d152a32a3df0659c8a19c7a5c170d1e658d8a17bbe1216eb76d3a2424
     home: https://substra.org/
@@ -178,7 +193,7 @@ entries:
     - substra-backend-1.0.0-alpha.26.tgz
     version: 1.0.0-alpha.26
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.374996436Z"
+    created: "2020-04-30T19:19:58.95520089Z"
     description: Main package for Substra
     digest: 693c37b09d4670ef56c692545f923b73846c99cd7ba5bf518bdba33f535f285c
     home: https://substra.org/
@@ -193,7 +208,7 @@ entries:
     - substra-backend-1.0.0-alpha.25.tgz
     version: 1.0.0-alpha.25
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.370399902Z"
+    created: "2020-04-30T19:19:58.952417563Z"
     description: Main package for Substra
     digest: ebf4fe75599ccb56ed42b1ae639536298fe6ca8d5a94320aec25637df176e9e8
     home: https://substra.org/
@@ -208,7 +223,7 @@ entries:
     - substra-backend-1.0.0-alpha.24.tgz
     version: 1.0.0-alpha.24
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.367613991Z"
+    created: "2020-04-30T19:19:58.947608604Z"
     description: Main package for Substra
     digest: 59ef66923403002f5be25044da3426c6fe934f33e1c33fedd5a0db614712b6b7
     home: https://substra.org/
@@ -223,7 +238,7 @@ entries:
     - substra-backend-1.0.0-alpha.23.tgz
     version: 1.0.0-alpha.23
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.364915144Z"
+    created: "2020-04-30T19:19:58.944791739Z"
     description: Main package for Substra
     digest: 59caff1e62b71ea30c901e8f56f057fa526f9764b665afd2ca6f65288facb39c
     home: https://substra.org/
@@ -238,7 +253,7 @@ entries:
     - substra-backend-1.0.0-alpha.22.tgz
     version: 1.0.0-alpha.22
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.362071226Z"
+    created: "2020-04-30T19:19:58.942110358Z"
     description: Main package for Substra
     digest: 453823dbc11f0e8c553da39c491f3defc7ef15a52840928d7a2e52b1cfeac21e
     home: https://substra.org/
@@ -253,7 +268,7 @@ entries:
     - substra-backend-1.0.0-alpha.21.tgz
     version: 1.0.0-alpha.21
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.357337406Z"
+    created: "2020-04-30T19:19:58.939184395Z"
     description: Main package for Substra
     digest: 6ad4be80fc4a0b26382c421e9f133c4e49f43f20445b0a5d6a096c3d8ba6c0f0
     home: https://substra.org/
@@ -268,7 +283,7 @@ entries:
     - substra-backend-1.0.0-alpha.20.tgz
     version: 1.0.0-alpha.20
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.354593093Z"
+    created: "2020-04-30T19:19:58.934392379Z"
     description: Main package for Substra
     digest: ce6b2b9a6a48622c3ac4f1bf75fef029041a2cf6b03050b657a57e2e77c55af6
     home: https://substra.org/
@@ -283,7 +298,7 @@ entries:
     - substra-backend-1.0.0-alpha.19.tgz
     version: 1.0.0-alpha.19
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.351905506Z"
+    created: "2020-04-30T19:19:58.931652487Z"
     description: Main package for Substra
     digest: 4825e42485e4dad3ff9ab0902cf78f42ce915379e65d4d500bfffec228ec72e6
     home: https://substra.org/
@@ -298,7 +313,7 @@ entries:
     - substra-backend-1.0.0-alpha.18.tgz
     version: 1.0.0-alpha.18
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.349242216Z"
+    created: "2020-04-30T19:19:58.928759298Z"
     description: Main package for Substra
     digest: adbcfd8dacdf1a6730017f0ed756f88ae42e6aacd5111693911af33067869730
     home: https://substra.org/
@@ -313,7 +328,7 @@ entries:
     - substra-backend-1.0.0-alpha.17.tgz
     version: 1.0.0-alpha.17
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.344391733Z"
+    created: "2020-04-30T19:19:58.924515903Z"
     description: Main package for Substra
     digest: 42fe44df3c67176f07d3b261103677ad34b911db35650b59708a2b13d8b58030
     home: https://substra.org/
@@ -328,7 +343,7 @@ entries:
     - substra-backend-1.0.0-alpha.16.tgz
     version: 1.0.0-alpha.16
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.341611507Z"
+    created: "2020-04-30T19:19:58.921012652Z"
     description: Main package for Substra
     digest: fb17904e21345403a873913c2ec5c5e45adab8a1eaf366a78b4b0928a2923786
     home: https://substra.org/
@@ -343,7 +358,7 @@ entries:
     - substra-backend-1.0.0-alpha.15.tgz
     version: 1.0.0-alpha.15
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.338936305Z"
+    created: "2020-04-30T19:19:58.918257213Z"
     description: Main package for Substra
     digest: 769659a48c8adeef9aa09fde80ed97052c387035b659e42fa9ed4c724f7a33c9
     home: https://substra.org/
@@ -358,7 +373,7 @@ entries:
     - substra-backend-1.0.0-alpha.14.tgz
     version: 1.0.0-alpha.14
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.336545972Z"
+    created: "2020-04-30T19:19:58.915850831Z"
     description: Main package for Substra
     digest: 2efc2729f3c4a8440d6b79a1bc9bc1ca9612d8675d8758eb2aa3934c989fb1d7
     home: https://substra.org/
@@ -373,7 +388,7 @@ entries:
     - substra-backend-1.0.0-alpha.13.tgz
     version: 1.0.0-alpha.13
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.332048276Z"
+    created: "2020-04-30T19:19:58.912611558Z"
     description: Main package for Substra
     digest: de95690c47c0e7c66652dd15dab27a6e881de52295de7cb4ae5be8cf3d658b4c
     home: https://substra.org/
@@ -388,7 +403,7 @@ entries:
     - substra-backend-1.0.0-alpha.12.tgz
     version: 1.0.0-alpha.12
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.329750771Z"
+    created: "2020-04-30T19:19:58.908669136Z"
     description: Main package for Substra
     digest: 41841a206ccebbd8cb05957ca413282c7dfc132bafd3ed0ae41950828c18070f
     home: https://substra.org/
@@ -404,7 +419,7 @@ entries:
     version: 1.0.0-alpha.11
   substra-frontend:
   - apiVersion: v1
-    created: "2020-04-30T15:17:40.386108033Z"
+    created: "2020-04-30T19:19:58.969888793Z"
     description: Main package for Substra Frontend
     digest: 69db85b0f823a0fd966483434e2dd392c7c6c1a202dcfbc7be26e4cd674c4705
     home: https://substra.org/
@@ -418,4 +433,4 @@ entries:
     urls:
     - substra-frontend-1.0.0-alpha.2.tgz
     version: 1.0.0-alpha.2
-generated: "2020-04-30T15:17:40.291307998Z"
+generated: "2020-04-30T19:19:58.869384256Z"
