@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   hlf-k8s:
   - apiVersion: v2
-    created: "2024-02-29T16:30:11.112318969Z"
+    created: "2024-02-29T16:30:44.958038912Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -36,7 +36,7 @@ entries:
     - hlf-k8s-10.2.4.tgz
     version: 10.2.4
   - apiVersion: v2
-    created: "2024-02-29T16:30:11.108564397Z"
+    created: "2024-02-29T16:30:44.953442236Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -70,7 +70,7 @@ entries:
     - hlf-k8s-10.2.3.tgz
     version: 10.2.3
   - apiVersion: v2
-    created: "2024-02-29T16:30:11.104360925Z"
+    created: "2024-02-29T16:30:44.949698645Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -104,7 +104,7 @@ entries:
     - hlf-k8s-10.2.2.tgz
     version: 10.2.2
   - apiVersion: v2
-    created: "2024-02-29T16:30:11.100111599Z"
+    created: "2024-02-29T16:30:44.945891716Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -138,7 +138,7 @@ entries:
     - hlf-k8s-10.2.1.tgz
     version: 10.2.1
   - apiVersion: v2
-    created: "2024-02-29T16:30:11.096285963Z"
+    created: "2024-02-29T16:30:44.941349817Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -172,7 +172,7 @@ entries:
     - hlf-k8s-10.2.0.tgz
     version: 10.2.0
   - apiVersion: v2
-    created: "2024-02-29T16:30:11.09151972Z"
+    created: "2024-02-29T16:30:44.937578554Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -210,7 +210,7 @@ entries:
         - Charts using API v2 now, officially dropping support form Helm v2
         - Remove nginx-ingress dependency
     apiVersion: v2
-    created: "2024-02-29T16:30:11.283951735Z"
+    created: "2024-02-29T16:30:45.13041101Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -249,7 +249,7 @@ entries:
         - Charts using API v2 now, officially dropping support form Helm v2
         - Remove nginx-ingress dependency
     apiVersion: v2
-    created: "2024-02-29T16:30:11.278580168Z"
+    created: "2024-02-29T16:30:45.124878656Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -284,7 +284,7 @@ entries:
     - hlf-k8s-7.0.0.tgz
     version: 7.0.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.273662746Z"
+    created: "2024-02-29T16:30:45.120161222Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -320,7 +320,7 @@ entries:
     - hlf-k8s-6.2.2.tgz
     version: 6.2.2
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.266575956Z"
+    created: "2024-02-29T16:30:45.112857847Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -356,7 +356,7 @@ entries:
     - hlf-k8s-6.2.1.tgz
     version: 6.2.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.260498769Z"
+    created: "2024-02-29T16:30:45.106803724Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -392,7 +392,7 @@ entries:
     - hlf-k8s-6.2.0.tgz
     version: 6.2.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.253536793Z"
+    created: "2024-02-29T16:30:45.099727966Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -428,7 +428,7 @@ entries:
     - hlf-k8s-6.1.0.tgz
     version: 6.1.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.24640016Z"
+    created: "2024-02-29T16:30:45.092877701Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -464,7 +464,7 @@ entries:
     - hlf-k8s-6.0.0.tgz
     version: 6.0.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.24035382Z"
+    created: "2024-02-29T16:30:45.086723802Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -500,7 +500,7 @@ entries:
     - hlf-k8s-5.1.3.tgz
     version: 5.1.3
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.232551473Z"
+    created: "2024-02-29T16:30:45.078759296Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -536,7 +536,7 @@ entries:
     - hlf-k8s-5.1.2.tgz
     version: 5.1.2
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.224900303Z"
+    created: "2024-02-29T16:30:45.071183246Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -572,7 +572,7 @@ entries:
     - hlf-k8s-5.1.1.tgz
     version: 5.1.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.217019Z"
+    created: "2024-02-29T16:30:45.063351606Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -608,7 +608,7 @@ entries:
     - hlf-k8s-5.1.0.tgz
     version: 5.1.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.21009094Z"
+    created: "2024-02-29T16:30:45.056347074Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -644,7 +644,7 @@ entries:
     - hlf-k8s-5.0.2.tgz
     version: 5.0.2
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.20238968Z"
+    created: "2024-02-29T16:30:45.048275916Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -680,7 +680,7 @@ entries:
     - hlf-k8s-5.0.1.tgz
     version: 5.0.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.194688181Z"
+    created: "2024-02-29T16:30:45.040508923Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -716,7 +716,7 @@ entries:
     - hlf-k8s-5.0.0.tgz
     version: 5.0.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.187778666Z"
+    created: "2024-02-29T16:30:45.032875851Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -752,7 +752,7 @@ entries:
     - hlf-k8s-4.0.1.tgz
     version: 4.0.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.180026886Z"
+    created: "2024-02-29T16:30:45.025105349Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -788,7 +788,7 @@ entries:
     - hlf-k8s-4.0.0.tgz
     version: 4.0.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.172674079Z"
+    created: "2024-02-29T16:30:45.01820455Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -820,7 +820,7 @@ entries:
     - hlf-k8s-3.0.2.tgz
     version: 3.0.2
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.167085371Z"
+    created: "2024-02-29T16:30:45.011812Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -852,7 +852,7 @@ entries:
     - hlf-k8s-3.0.1.tgz
     version: 3.0.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.16034007Z"
+    created: "2024-02-29T16:30:45.006205391Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -884,7 +884,7 @@ entries:
     - hlf-k8s-3.0.0.tgz
     version: 3.0.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.154822577Z"
+    created: "2024-02-29T16:30:44.999837991Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -916,7 +916,7 @@ entries:
     - hlf-k8s-2.3.1.tgz
     version: 2.3.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.148553911Z"
+    created: "2024-02-29T16:30:44.993123833Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -948,7 +948,7 @@ entries:
     - hlf-k8s-2.2.2.tgz
     version: 2.2.2
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.142457981Z"
+    created: "2024-02-29T16:30:44.987690767Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -980,7 +980,7 @@ entries:
     - hlf-k8s-2.2.1.tgz
     version: 2.2.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.136936711Z"
+    created: "2024-02-29T16:30:44.981311265Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1012,7 +1012,7 @@ entries:
     - hlf-k8s-2.2.0.tgz
     version: 2.2.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.130460258Z"
+    created: "2024-02-29T16:30:44.975224591Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1044,7 +1044,7 @@ entries:
     - hlf-k8s-2.1.1-alpha.tgz
     version: 2.1.1-alpha
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.124951852Z"
+    created: "2024-02-29T16:30:44.969728177Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1076,7 +1076,7 @@ entries:
     - hlf-k8s-2.1.0.tgz
     version: 2.1.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.118579457Z"
+    created: "2024-02-29T16:30:44.963535126Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1108,7 +1108,7 @@ entries:
     - hlf-k8s-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.087639552Z"
+    created: "2024-02-29T16:30:44.933010502Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1140,7 +1140,7 @@ entries:
     - hlf-k8s-1.4.9-melloddy.tgz
     version: 1.4.9-melloddy
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.081425751Z"
+    created: "2024-02-29T16:30:44.927520089Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1172,7 +1172,7 @@ entries:
     - hlf-k8s-1.4.8-melloddy.tgz
     version: 1.4.8-melloddy
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.075968672Z"
+    created: "2024-02-29T16:30:44.920888281Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1204,7 +1204,7 @@ entries:
     - hlf-k8s-1.4.7-melloddy-concurrency.tgz
     version: 1.4.7-melloddy-concurrency
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.069725484Z"
+    created: "2024-02-29T16:30:44.915392478Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1236,7 +1236,7 @@ entries:
     - hlf-k8s-1.4.7-alpha.2.tgz
     version: 1.4.7-alpha.2
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.064394742Z"
+    created: "2024-02-29T16:30:44.90911193Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1268,7 +1268,7 @@ entries:
     - hlf-k8s-1.4.7-alpha.1.tgz
     version: 1.4.7-alpha.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.057528389Z"
+    created: "2024-02-29T16:30:44.902718268Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1300,7 +1300,7 @@ entries:
     - hlf-k8s-1.4.6.tgz
     version: 1.4.6
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.052136181Z"
+    created: "2024-02-29T16:30:44.897201566Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1332,7 +1332,7 @@ entries:
     - hlf-k8s-1.4.5.tgz
     version: 1.4.5
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.045780156Z"
+    created: "2024-02-29T16:30:44.890644664Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1364,7 +1364,7 @@ entries:
     - hlf-k8s-1.4.4.tgz
     version: 1.4.4
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.039677587Z"
+    created: "2024-02-29T16:30:44.88513759Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1396,7 +1396,7 @@ entries:
     - hlf-k8s-1.4.3.tgz
     version: 1.4.3
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.034287132Z"
+    created: "2024-02-29T16:30:44.878577438Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1428,7 +1428,7 @@ entries:
     - hlf-k8s-1.4.2.tgz
     version: 1.4.2
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.02829385Z"
+    created: "2024-02-29T16:30:44.872311558Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1460,7 +1460,7 @@ entries:
     - hlf-k8s-1.4.1.tgz
     version: 1.4.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.022914306Z"
+    created: "2024-02-29T16:30:44.86688845Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1492,7 +1492,7 @@ entries:
     - hlf-k8s-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.016579521Z"
+    created: "2024-02-29T16:30:44.860391035Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1524,7 +1524,7 @@ entries:
     - hlf-k8s-1.3.2.tgz
     version: 1.3.2
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.011145115Z"
+    created: "2024-02-29T16:30:44.854947289Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1556,7 +1556,7 @@ entries:
     - hlf-k8s-1.3.1.tgz
     version: 1.3.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.003210404Z"
+    created: "2024-02-29T16:30:44.848615305Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1588,7 +1588,7 @@ entries:
     - hlf-k8s-1.3.1-alpha.1.tgz
     version: 1.3.1-alpha.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:10.997686578Z"
+    created: "2024-02-29T16:30:44.842371693Z"
     dependencies:
     - condition: hlf-ca.enabled
       name: hlf-ca
@@ -1620,7 +1620,7 @@ entries:
     - hlf-k8s-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:10.991325261Z"
+    created: "2024-02-29T16:30:44.836878786Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -1655,7 +1655,7 @@ entries:
     - hlf-k8s-1.2.2.tgz
     version: 1.2.2
   - apiVersion: v1
-    created: "2024-02-29T16:30:10.985577336Z"
+    created: "2024-02-29T16:30:44.830806198Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -1690,7 +1690,7 @@ entries:
     - hlf-k8s-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:10.979759937Z"
+    created: "2024-02-29T16:30:44.825295898Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -1725,7 +1725,7 @@ entries:
     - hlf-k8s-1.1.1.tgz
     version: 1.1.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:10.973645049Z"
+    created: "2024-02-29T16:30:44.819063824Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -1760,7 +1760,7 @@ entries:
     - hlf-k8s-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:10.957171922Z"
+    created: "2024-02-29T16:30:44.802152746Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -1795,7 +1795,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.12.tgz
     version: 1.0.0-alpha.12
   - apiVersion: v1
-    created: "2024-02-29T16:30:10.951222299Z"
+    created: "2024-02-29T16:30:44.795902247Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -1830,7 +1830,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.11.tgz
     version: 1.0.0-alpha.11
   - apiVersion: v1
-    created: "2024-02-29T16:30:10.944529829Z"
+    created: "2024-02-29T16:30:44.789474686Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -1865,7 +1865,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.10.tgz
     version: 1.0.0-alpha.10
   - apiVersion: v1
-    created: "2024-02-29T16:30:10.968232804Z"
+    created: "2024-02-29T16:30:44.813582829Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -1900,7 +1900,7 @@ entries:
     - hlf-k8s-1.0.0-alpha.9.tgz
     version: 1.0.0-alpha.9
   - apiVersion: v1
-    created: "2024-02-29T16:30:10.962185897Z"
+    created: "2024-02-29T16:30:44.807296991Z"
     dependencies:
     - alias: ca
       condition: ca.enabled
@@ -1937,7 +1937,7 @@ entries:
   orchestrator:
   - apiVersion: v2
     appVersion: 0.38.0
-    created: "2024-02-29T16:30:11.40104343Z"
+    created: "2024-02-29T16:30:45.246372247Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1961,7 +1961,7 @@ entries:
     version: 8.2.1
   - apiVersion: v2
     appVersion: 0.38.0
-    created: "2024-02-29T16:30:11.395623781Z"
+    created: "2024-02-29T16:30:45.241944973Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1985,7 +1985,7 @@ entries:
     version: 8.1.1
   - apiVersion: v2
     appVersion: 0.37.0
-    created: "2024-02-29T16:30:11.391233511Z"
+    created: "2024-02-29T16:30:45.23669117Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2009,7 +2009,7 @@ entries:
     version: 8.1.0
   - apiVersion: v2
     appVersion: 0.37.0
-    created: "2024-02-29T16:30:11.385917271Z"
+    created: "2024-02-29T16:30:45.231919445Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2033,7 +2033,7 @@ entries:
     version: 8.0.1
   - apiVersion: v2
     appVersion: 0.36.1
-    created: "2024-02-29T16:30:11.380908903Z"
+    created: "2024-02-29T16:30:45.227133197Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2057,7 +2057,7 @@ entries:
     version: 8.0.0
   - apiVersion: v2
     appVersion: 0.36.1
-    created: "2024-02-29T16:30:11.376432431Z"
+    created: "2024-02-29T16:30:45.221816297Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2081,7 +2081,7 @@ entries:
     version: 7.5.6
   - apiVersion: v2
     appVersion: 0.36.1
-    created: "2024-02-29T16:30:11.371813674Z"
+    created: "2024-02-29T16:30:45.217735628Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2105,7 +2105,7 @@ entries:
     version: 7.5.5
   - apiVersion: v2
     appVersion: 0.36.0
-    created: "2024-02-29T16:30:11.36779274Z"
+    created: "2024-02-29T16:30:45.213693602Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2129,7 +2129,7 @@ entries:
     version: 7.5.4
   - apiVersion: v2
     appVersion: 0.35.2
-    created: "2024-02-29T16:30:11.363094434Z"
+    created: "2024-02-29T16:30:45.208745409Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2153,7 +2153,7 @@ entries:
     version: 7.5.3
   - apiVersion: v2
     appVersion: 0.35.1
-    created: "2024-02-29T16:30:11.359061677Z"
+    created: "2024-02-29T16:30:45.203924311Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2177,7 +2177,7 @@ entries:
     version: 7.5.2
   - apiVersion: v2
     appVersion: 0.35.0
-    created: "2024-02-29T16:30:11.354348572Z"
+    created: "2024-02-29T16:30:45.199888547Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2201,7 +2201,7 @@ entries:
     version: 7.5.1
   - apiVersion: v2
     appVersion: 0.34.0
-    created: "2024-02-29T16:30:11.35034468Z"
+    created: "2024-02-29T16:30:45.195134425Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2225,7 +2225,7 @@ entries:
     version: 7.5.0
   - apiVersion: v2
     appVersion: 0.34.0
-    created: "2024-02-29T16:30:11.309744462Z"
+    created: "2024-02-29T16:30:45.156256521Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2249,7 +2249,7 @@ entries:
     version: 7.4.13
   - apiVersion: v2
     appVersion: 0.33.0
-    created: "2024-02-29T16:30:11.305252661Z"
+    created: "2024-02-29T16:30:45.152192274Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2273,7 +2273,7 @@ entries:
     version: 7.4.12
   - apiVersion: v2
     appVersion: 0.32.0
-    created: "2024-02-29T16:30:11.301332036Z"
+    created: "2024-02-29T16:30:45.147931484Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2297,7 +2297,7 @@ entries:
     version: 7.4.11
   - apiVersion: v2
     appVersion: 0.32.0
-    created: "2024-02-29T16:30:11.296480898Z"
+    created: "2024-02-29T16:30:45.143370271Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2321,7 +2321,7 @@ entries:
     version: 7.4.10
   - apiVersion: v2
     appVersion: 0.31.1
-    created: "2024-02-29T16:30:11.344065796Z"
+    created: "2024-02-29T16:30:45.191079765Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2345,7 +2345,7 @@ entries:
     version: 7.4.9
   - apiVersion: v2
     appVersion: 0.31.1
-    created: "2024-02-29T16:30:11.340110145Z"
+    created: "2024-02-29T16:30:45.186514605Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2369,7 +2369,7 @@ entries:
     version: 7.4.8
   - apiVersion: v2
     appVersion: 0.31.0
-    created: "2024-02-29T16:30:11.335448951Z"
+    created: "2024-02-29T16:30:45.182559721Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2393,7 +2393,7 @@ entries:
     version: 7.4.7
   - apiVersion: v2
     appVersion: 0.30.0
-    created: "2024-02-29T16:30:11.331315445Z"
+    created: "2024-02-29T16:30:45.17855305Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2417,7 +2417,7 @@ entries:
     version: 7.4.6
   - apiVersion: v2
     appVersion: 0.29.0
-    created: "2024-02-29T16:30:11.326396739Z"
+    created: "2024-02-29T16:30:45.173804616Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2441,7 +2441,7 @@ entries:
     version: 7.4.5
   - apiVersion: v2
     appVersion: 0.28.0
-    created: "2024-02-29T16:30:11.322408157Z"
+    created: "2024-02-29T16:30:45.169800751Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2467,7 +2467,7 @@ entries:
     version: 7.4.4
   - apiVersion: v2
     appVersion: 0.27.0
-    created: "2024-02-29T16:30:11.31843891Z"
+    created: "2024-02-29T16:30:45.165067Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2493,7 +2493,7 @@ entries:
     version: 7.4.3
   - apiVersion: v2
     appVersion: 0.26.1
-    created: "2024-02-29T16:30:11.313671559Z"
+    created: "2024-02-29T16:30:45.161057464Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2519,7 +2519,7 @@ entries:
     version: 7.4.2
   - apiVersion: v2
     appVersion: 0.26.0
-    created: "2024-02-29T16:30:11.292550143Z"
+    created: "2024-02-29T16:30:45.139390059Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2545,7 +2545,7 @@ entries:
     version: 7.4.1
   - apiVersion: v2
     appVersion: 0.25.0
-    created: "2024-02-29T16:30:11.287903008Z"
+    created: "2024-02-29T16:30:45.134511746Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2572,7 +2572,50 @@ entries:
   substra-backend:
   - apiVersion: v2
     appVersion: 0.43.0
-    created: "2024-02-29T16:30:12.26603671Z"
+    created: "2024-02-29T16:30:46.127954957Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 18.1.2
+    - condition: redis.enabled,postgresql.enabled,minio.enabled
+      name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.13.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 13.1.2
+    - condition: docker-registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 2.2.2
+    - condition: minio.enabled
+      name: minio
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.8.12
+    - condition: localstack.enabled
+      name: localstack
+      repository: https://localstack.github.io/helm-charts
+      version: 0.6.9
+    description: Main package for Substra
+    digest: 18da4982a32b8cdcad9db08e5e5df18370d35e41d0645203fdbcf45aa6c39044
+    home: https://github.com/Substra
+    icon: https://avatars.githubusercontent.com/u/84009910?s=200&v=4
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: support@substra.org
+      name: Substra Team
+    name: substra-backend
+    sources:
+    - https://github.com/Substra/substra-backend
+    type: application
+    urls:
+    - substra-backend-24.2.0.tgz
+    version: 24.2.0
+  - apiVersion: v2
+    appVersion: 0.43.0
+    created: "2024-02-29T16:30:46.112618902Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -2615,7 +2658,7 @@ entries:
     version: 24.1.0
   - apiVersion: v2
     appVersion: 0.43.0
-    created: "2024-02-29T16:30:12.250239208Z"
+    created: "2024-02-29T16:30:46.097150543Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -2654,7 +2697,7 @@ entries:
     version: 24.0.3
   - apiVersion: v2
     appVersion: 0.42.2
-    created: "2024-02-29T16:30:12.235845422Z"
+    created: "2024-02-29T16:30:46.083011837Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -2693,7 +2736,7 @@ entries:
     version: 24.0.2
   - apiVersion: v2
     appVersion: 0.42.2
-    created: "2024-02-29T16:30:12.221308532Z"
+    created: "2024-02-29T16:30:46.06885138Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -2732,7 +2775,7 @@ entries:
     version: 24.0.1
   - apiVersion: v2
     appVersion: 0.42.2
-    created: "2024-02-29T16:30:12.206438815Z"
+    created: "2024-02-29T16:30:46.054477125Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -2771,7 +2814,7 @@ entries:
     version: 24.0.0
   - apiVersion: v2
     appVersion: 0.43.0-beta5
-    created: "2024-02-29T16:30:12.191812207Z"
+    created: "2024-02-29T16:30:46.040203154Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -2810,7 +2853,7 @@ entries:
     version: 24.0.0-beta5
   - apiVersion: v2
     appVersion: 0.43.0-beta1
-    created: "2024-02-29T16:30:12.176604503Z"
+    created: "2024-02-29T16:30:46.025822991Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -2849,7 +2892,7 @@ entries:
     version: 24.0.0-beta1
   - apiVersion: v2
     appVersion: 0.42.2
-    created: "2024-02-29T16:30:12.161009727Z"
+    created: "2024-02-29T16:30:46.011558648Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -2888,7 +2931,7 @@ entries:
     version: 23.0.2
   - apiVersion: v2
     appVersion: 0.42.1
-    created: "2024-02-29T16:30:12.146857233Z"
+    created: "2024-02-29T16:30:45.997398325Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -2927,7 +2970,7 @@ entries:
     version: 23.0.1
   - apiVersion: v2
     appVersion: 0.42.1
-    created: "2024-02-29T16:30:12.132869972Z"
+    created: "2024-02-29T16:30:45.982977474Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -2966,7 +3009,7 @@ entries:
     version: 23.0.0
   - apiVersion: v2
     appVersion: 0.40.0-alpha.4
-    created: "2024-02-29T16:30:12.118726218Z"
+    created: "2024-02-29T16:30:45.968462838Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3001,7 +3044,7 @@ entries:
     version: 23.0.0-alpha.4
   - apiVersion: v2
     appVersion: 0.40.0-alpha.3
-    created: "2024-02-29T16:30:12.105706986Z"
+    created: "2024-02-29T16:30:45.95559246Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3036,7 +3079,7 @@ entries:
     version: 23.0.0-alpha.3
   - apiVersion: v2
     appVersion: 0.40.0-alpha.2
-    created: "2024-02-29T16:30:12.09293793Z"
+    created: "2024-02-29T16:30:45.942604697Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3071,7 +3114,7 @@ entries:
     version: 23.0.0-alpha.2
   - apiVersion: v2
     appVersion: 0.40.0-alhpa.1
-    created: "2024-02-29T16:30:12.080246014Z"
+    created: "2024-02-29T16:30:45.929789795Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3106,7 +3149,7 @@ entries:
     version: 23.0.0-alpha.1
   - apiVersion: v2
     appVersion: 0.42.1
-    created: "2024-02-29T16:30:12.06734231Z"
+    created: "2024-02-29T16:30:45.916847517Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3141,7 +3184,7 @@ entries:
     version: 22.8.6
   - apiVersion: v2
     appVersion: 0.42.1
-    created: "2024-02-29T16:30:12.054588116Z"
+    created: "2024-02-29T16:30:45.904051781Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3176,7 +3219,7 @@ entries:
     version: 22.8.5
   - apiVersion: v2
     appVersion: 0.42.1
-    created: "2024-02-29T16:30:12.04184216Z"
+    created: "2024-02-29T16:30:45.891296952Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3211,7 +3254,7 @@ entries:
     version: 22.8.4
   - apiVersion: v2
     appVersion: 0.42.1
-    created: "2024-02-29T16:30:12.029177498Z"
+    created: "2024-02-29T16:30:45.878387638Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3246,7 +3289,7 @@ entries:
     version: 22.8.3
   - apiVersion: v2
     appVersion: 0.42.0
-    created: "2024-02-29T16:30:12.016489265Z"
+    created: "2024-02-29T16:30:45.865568375Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3281,7 +3324,7 @@ entries:
     version: 22.8.2
   - apiVersion: v2
     appVersion: 0.41.0
-    created: "2024-02-29T16:30:12.003737362Z"
+    created: "2024-02-29T16:30:45.852519528Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3316,7 +3359,7 @@ entries:
     version: 22.8.1
   - apiVersion: v2
     appVersion: 0.40.0
-    created: "2024-02-29T16:30:11.990820419Z"
+    created: "2024-02-29T16:30:45.839627687Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3351,7 +3394,7 @@ entries:
     version: 22.8.0
   - apiVersion: v2
     appVersion: 0.40.0
-    created: "2024-02-29T16:30:11.977848879Z"
+    created: "2024-02-29T16:30:45.826756218Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3386,7 +3429,7 @@ entries:
     version: 22.7.1
   - apiVersion: v2
     appVersion: 0.40.0
-    created: "2024-02-29T16:30:11.963887731Z"
+    created: "2024-02-29T16:30:45.813941536Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3421,7 +3464,7 @@ entries:
     version: 22.7.0
   - apiVersion: v2
     appVersion: 0.40.0
-    created: "2024-02-29T16:30:11.949671232Z"
+    created: "2024-02-29T16:30:45.801124896Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3456,7 +3499,7 @@ entries:
     version: 22.6.1
   - apiVersion: v2
     appVersion: 0.39.0
-    created: "2024-02-29T16:30:11.937726811Z"
+    created: "2024-02-29T16:30:45.788176235Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3491,7 +3534,7 @@ entries:
     version: 22.6.0
   - apiVersion: v2
     appVersion: 0.39.0
-    created: "2024-02-29T16:30:11.924803843Z"
+    created: "2024-02-29T16:30:45.775302785Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3526,7 +3569,7 @@ entries:
     version: 22.5.2
   - apiVersion: v2
     appVersion: 0.38.0
-    created: "2024-02-29T16:30:11.911746345Z"
+    created: "2024-02-29T16:30:45.762351526Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3561,7 +3604,7 @@ entries:
     version: 22.5.1
   - apiVersion: v2
     appVersion: 0.37.0
-    created: "2024-02-29T16:30:11.899048434Z"
+    created: "2024-02-29T16:30:45.749282442Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3596,7 +3639,7 @@ entries:
     version: 22.5.0
   - apiVersion: v2
     appVersion: 0.37.0
-    created: "2024-02-29T16:30:11.885988569Z"
+    created: "2024-02-29T16:30:45.735352304Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3631,7 +3674,7 @@ entries:
     version: 22.4.4
   - apiVersion: v2
     appVersion: 0.36.1
-    created: "2024-02-29T16:30:11.873343601Z"
+    created: "2024-02-29T16:30:45.721828943Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3666,7 +3709,7 @@ entries:
     version: 22.4.3
   - apiVersion: v2
     appVersion: 0.36.0
-    created: "2024-02-29T16:30:11.860579118Z"
+    created: "2024-02-29T16:30:45.709916012Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3701,7 +3744,7 @@ entries:
     version: 22.4.2
   - apiVersion: v2
     appVersion: 0.35.1
-    created: "2024-02-29T16:30:11.847862252Z"
+    created: "2024-02-29T16:30:45.697127002Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3736,7 +3779,7 @@ entries:
     version: 22.4.1
   - apiVersion: v2
     appVersion: 0.35.1
-    created: "2024-02-29T16:30:11.835116911Z"
+    created: "2024-02-29T16:30:45.683941116Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3771,7 +3814,7 @@ entries:
     version: 22.4.0
   - apiVersion: v2
     appVersion: 0.35.1
-    created: "2024-02-29T16:30:11.821814821Z"
+    created: "2024-02-29T16:30:45.671063852Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3806,7 +3849,7 @@ entries:
     version: 22.3.4
   - apiVersion: v2
     appVersion: 0.35.1
-    created: "2024-02-29T16:30:11.806475972Z"
+    created: "2024-02-29T16:30:45.658106807Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3841,7 +3884,7 @@ entries:
     version: 22.3.3
   - apiVersion: v2
     appVersion: 0.35.0
-    created: "2024-02-29T16:30:11.79393699Z"
+    created: "2024-02-29T16:30:45.645324295Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3876,7 +3919,7 @@ entries:
     version: 22.3.2
   - apiVersion: v2
     appVersion: 0.34.1
-    created: "2024-02-29T16:30:11.780245735Z"
+    created: "2024-02-29T16:30:45.631381354Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3911,7 +3954,7 @@ entries:
     version: 22.3.1
   - apiVersion: v2
     appVersion: 0.34.1
-    created: "2024-02-29T16:30:11.767611008Z"
+    created: "2024-02-29T16:30:45.617959509Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3946,7 +3989,7 @@ entries:
     version: 22.3.0
   - apiVersion: v2
     appVersion: 0.34.1
-    created: "2024-02-29T16:30:11.754853615Z"
+    created: "2024-02-29T16:30:45.605528977Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3981,7 +4024,7 @@ entries:
     version: 22.2.4
   - apiVersion: v2
     appVersion: 0.34.0
-    created: "2024-02-29T16:30:11.742330581Z"
+    created: "2024-02-29T16:30:45.59293825Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4016,7 +4059,7 @@ entries:
     version: 22.2.3
   - apiVersion: v2
     appVersion: 0.33.0
-    created: "2024-02-29T16:30:11.729792486Z"
+    created: "2024-02-29T16:30:45.580641427Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4051,7 +4094,7 @@ entries:
     version: 22.2.2
   - apiVersion: v2
     appVersion: 0.32.0
-    created: "2024-02-29T16:30:11.717210774Z"
+    created: "2024-02-29T16:30:45.568023629Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4086,7 +4129,7 @@ entries:
     version: 22.2.1
   - apiVersion: v2
     appVersion: 0.31.0
-    created: "2024-02-29T16:30:11.704504032Z"
+    created: "2024-02-29T16:30:45.555499843Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4121,7 +4164,7 @@ entries:
     version: 22.2.0
   - apiVersion: v2
     appVersion: 0.31.0
-    created: "2024-02-29T16:30:11.691895903Z"
+    created: "2024-02-29T16:30:45.542990511Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4156,7 +4199,7 @@ entries:
     version: 22.1.3
   - apiVersion: v2
     appVersion: 0.31.0
-    created: "2024-02-29T16:30:11.679391202Z"
+    created: "2024-02-29T16:30:45.530305198Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4191,7 +4234,7 @@ entries:
     version: 22.1.2
   - apiVersion: v2
     appVersion: 0.30.0
-    created: "2024-02-29T16:30:11.666858912Z"
+    created: "2024-02-29T16:30:45.517525505Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4226,7 +4269,7 @@ entries:
     version: 22.1.1
   - apiVersion: v2
     appVersion: 0.29.0
-    created: "2024-02-29T16:30:11.654261931Z"
+    created: "2024-02-29T16:30:45.504943628Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4261,7 +4304,7 @@ entries:
     version: 22.1.0
   - apiVersion: v2
     appVersion: 0.29.0
-    created: "2024-02-29T16:30:11.640919604Z"
+    created: "2024-02-29T16:30:45.491861496Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4296,7 +4339,7 @@ entries:
     version: 22.0.3
   - apiVersion: v2
     appVersion: 0.28.0
-    created: "2024-02-29T16:30:11.627753577Z"
+    created: "2024-02-29T16:30:45.478377779Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4331,7 +4374,7 @@ entries:
     version: 22.0.2
   - apiVersion: v2
     appVersion: 0.28.0
-    created: "2024-02-29T16:30:11.61550893Z"
+    created: "2024-02-29T16:30:45.465284539Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4365,7 +4408,7 @@ entries:
     - substra-backend-22.0.1.tgz
     version: 22.0.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.60335163Z"
+    created: "2024-02-29T16:30:45.452342141Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4393,7 +4436,7 @@ entries:
     - substra-backend-2.1.0.tgz
     version: 2.1.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.598497601Z"
+    created: "2024-02-29T16:30:45.448007169Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4421,7 +4464,7 @@ entries:
     - substra-backend-2.0.4.tgz
     version: 2.0.4
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.594306829Z"
+    created: "2024-02-29T16:30:45.442964333Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4449,7 +4492,7 @@ entries:
     - substra-backend-2.0.3.tgz
     version: 2.0.3
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.589629006Z"
+    created: "2024-02-29T16:30:45.438157993Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4477,7 +4520,7 @@ entries:
     - substra-backend-2.0.2.tgz
     version: 2.0.2
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.585015846Z"
+    created: "2024-02-29T16:30:45.433873736Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4505,7 +4548,7 @@ entries:
     - substra-backend-2.0.1.tgz
     version: 2.0.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.580750303Z"
+    created: "2024-02-29T16:30:45.428836073Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4533,7 +4576,7 @@ entries:
     - substra-backend-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.575724419Z"
+    created: "2024-02-29T16:30:45.424501131Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4561,7 +4604,7 @@ entries:
     - substra-backend-1.9.2.tgz
     version: 1.9.2
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.571506086Z"
+    created: "2024-02-29T16:30:45.419551144Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4589,7 +4632,7 @@ entries:
     - substra-backend-1.9.1.tgz
     version: 1.9.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.566426591Z"
+    created: "2024-02-29T16:30:45.415277136Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4617,7 +4660,7 @@ entries:
     - substra-backend-1.9.0.tgz
     version: 1.9.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.562258442Z"
+    created: "2024-02-29T16:30:45.410269605Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4645,7 +4688,7 @@ entries:
     - substra-backend-1.8.0.tgz
     version: 1.8.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.557337831Z"
+    created: "2024-02-29T16:30:45.406069255Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4673,7 +4716,7 @@ entries:
     - substra-backend-1.7.0.tgz
     version: 1.7.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.553196373Z"
+    created: "2024-02-29T16:30:45.401194254Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4701,7 +4744,7 @@ entries:
     - substra-backend-1.6.0.tgz
     version: 1.6.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.548397462Z"
+    created: "2024-02-29T16:30:45.396964378Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4729,7 +4772,7 @@ entries:
     - substra-backend-1.5.1.tgz
     version: 1.5.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.544272955Z"
+    created: "2024-02-29T16:30:45.392091037Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4757,7 +4800,7 @@ entries:
     - substra-backend-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.539372638Z"
+    created: "2024-02-29T16:30:45.387878493Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4785,7 +4828,7 @@ entries:
     - substra-backend-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.535188118Z"
+    created: "2024-02-29T16:30:45.382572313Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4813,7 +4856,7 @@ entries:
     - substra-backend-1.3.1.tgz
     version: 1.3.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.530758975Z"
+    created: "2024-02-29T16:30:45.378379446Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4841,7 +4884,7 @@ entries:
     - substra-backend-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.526090983Z"
+    created: "2024-02-29T16:30:45.374097433Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4869,7 +4912,7 @@ entries:
     - substra-backend-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.521070598Z"
+    created: "2024-02-29T16:30:45.368896949Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4897,7 +4940,7 @@ entries:
     - substra-backend-1.1.4.tgz
     version: 1.1.4
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.516835803Z"
+    created: "2024-02-29T16:30:45.364675239Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4925,7 +4968,7 @@ entries:
     - substra-backend-1.1.3.tgz
     version: 1.1.3
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.51202609Z"
+    created: "2024-02-29T16:30:45.359692778Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4953,7 +4996,7 @@ entries:
     - substra-backend-1.1.2.tgz
     version: 1.1.2
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.507789782Z"
+    created: "2024-02-29T16:30:45.35551022Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -4981,7 +5024,7 @@ entries:
     - substra-backend-1.1.1.tgz
     version: 1.1.1
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.502981586Z"
+    created: "2024-02-29T16:30:45.350588991Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5009,7 +5052,7 @@ entries:
     - substra-backend-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.47714598Z"
+    created: "2024-02-29T16:30:45.323910542Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5037,7 +5080,7 @@ entries:
     - substra-backend-1.0.0-alpha.32-melloddy.19-concurrency.tgz
     version: 1.0.0-alpha.32-melloddy.19-concurrency
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.498824558Z"
+    created: "2024-02-29T16:30:45.346298973Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5065,7 +5108,7 @@ entries:
     - substra-backend-1.0.0-alpha.36.tgz
     version: 1.0.0-alpha.36
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.494588131Z"
+    created: "2024-02-29T16:30:45.341416588Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5093,7 +5136,7 @@ entries:
     - substra-backend-1.0.0-alpha.35.tgz
     version: 1.0.0-alpha.35
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.489589903Z"
+    created: "2024-02-29T16:30:45.337154973Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5121,7 +5164,7 @@ entries:
     - substra-backend-1.0.0-alpha.34.tgz
     version: 1.0.0-alpha.34
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.485319691Z"
+    created: "2024-02-29T16:30:45.332129315Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5145,7 +5188,7 @@ entries:
     - substra-backend-1.0.0-alpha.33.tgz
     version: 1.0.0-alpha.33
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.480709689Z"
+    created: "2024-02-29T16:30:45.328478297Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5169,7 +5212,7 @@ entries:
     - substra-backend-1.0.0-alpha.32.tgz
     version: 1.0.0-alpha.32
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.471147611Z"
+    created: "2024-02-29T16:30:45.318436409Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5193,7 +5236,7 @@ entries:
     - substra-backend-1.0.0-alpha.31.tgz
     version: 1.0.0-alpha.31
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.467575175Z"
+    created: "2024-02-29T16:30:45.314056123Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5217,7 +5260,7 @@ entries:
     - substra-backend-1.0.0-alpha.30.tgz
     version: 1.0.0-alpha.30
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.463634114Z"
+    created: "2024-02-29T16:30:45.310786656Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5241,7 +5284,7 @@ entries:
     - substra-backend-1.0.0-alpha.29.tgz
     version: 1.0.0-alpha.29
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.460272636Z"
+    created: "2024-02-29T16:30:45.306854938Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5265,7 +5308,7 @@ entries:
     - substra-backend-1.0.0-alpha.28.tgz
     version: 1.0.0-alpha.28
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.456431253Z"
+    created: "2024-02-29T16:30:45.303609996Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5289,7 +5332,7 @@ entries:
     - substra-backend-1.0.0-alpha.27.tgz
     version: 1.0.0-alpha.27
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.453201619Z"
+    created: "2024-02-29T16:30:45.300163519Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5313,7 +5356,7 @@ entries:
     - substra-backend-1.0.0-alpha.26.tgz
     version: 1.0.0-alpha.26
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.449983357Z"
+    created: "2024-02-29T16:30:45.296027193Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5337,7 +5380,7 @@ entries:
     - substra-backend-1.0.0-alpha.25.tgz
     version: 1.0.0-alpha.25
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.445842988Z"
+    created: "2024-02-29T16:30:45.292795947Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5361,7 +5404,7 @@ entries:
     - substra-backend-1.0.0-alpha.24.tgz
     version: 1.0.0-alpha.24
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.442644343Z"
+    created: "2024-02-29T16:30:45.288587013Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5385,7 +5428,7 @@ entries:
     - substra-backend-1.0.0-alpha.23.tgz
     version: 1.0.0-alpha.23
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.439526229Z"
+    created: "2024-02-29T16:30:45.285460632Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5409,7 +5452,7 @@ entries:
     - substra-backend-1.0.0-alpha.22.tgz
     version: 1.0.0-alpha.22
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.435613632Z"
+    created: "2024-02-29T16:30:45.282292332Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5433,7 +5476,7 @@ entries:
     - substra-backend-1.0.0-alpha.21.tgz
     version: 1.0.0-alpha.21
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.432451005Z"
+    created: "2024-02-29T16:30:45.278439526Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5457,7 +5500,7 @@ entries:
     - substra-backend-1.0.0-alpha.20.tgz
     version: 1.0.0-alpha.20
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.42860096Z"
+    created: "2024-02-29T16:30:45.275368117Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5481,7 +5524,7 @@ entries:
     - substra-backend-1.0.0-alpha.19.tgz
     version: 1.0.0-alpha.19
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.42552209Z"
+    created: "2024-02-29T16:30:45.272281078Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5505,7 +5548,7 @@ entries:
     - substra-backend-1.0.0-alpha.18.tgz
     version: 1.0.0-alpha.18
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.422449452Z"
+    created: "2024-02-29T16:30:45.268556096Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5529,7 +5572,7 @@ entries:
     - substra-backend-1.0.0-alpha.17.tgz
     version: 1.0.0-alpha.17
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.418741846Z"
+    created: "2024-02-29T16:30:45.265462716Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5553,7 +5596,7 @@ entries:
     - substra-backend-1.0.0-alpha.16.tgz
     version: 1.0.0-alpha.16
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.415665211Z"
+    created: "2024-02-29T16:30:45.262280861Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5577,7 +5620,7 @@ entries:
     - substra-backend-1.0.0-alpha.15.tgz
     version: 1.0.0-alpha.15
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.412604205Z"
+    created: "2024-02-29T16:30:45.258257096Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5601,7 +5644,7 @@ entries:
     - substra-backend-1.0.0-alpha.14.tgz
     version: 1.0.0-alpha.14
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.409248075Z"
+    created: "2024-02-29T16:30:45.255589188Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5625,7 +5668,7 @@ entries:
     - substra-backend-1.0.0-alpha.13.tgz
     version: 1.0.0-alpha.13
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.406457097Z"
+    created: "2024-02-29T16:30:45.252701572Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5649,7 +5692,7 @@ entries:
     - substra-backend-1.0.0-alpha.12.tgz
     version: 1.0.0-alpha.12
   - apiVersion: v1
-    created: "2024-02-29T16:30:11.403768583Z"
+    created: "2024-02-29T16:30:45.249047829Z"
     dependencies:
     - condition: rabbitmq.enabled
       name: rabbitmq
@@ -5675,7 +5718,7 @@ entries:
   substra-frontend:
   - apiVersion: v2
     appVersion: 0.47.0
-    created: "2024-02-29T16:30:12.27380406Z"
+    created: "2024-02-29T16:30:46.135467636Z"
     description: Frontend for Substra
     digest: 246235644c08332e9bf57d3ffc4fca016c8c1bd47aae8fffb211298a821c15fd
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -5694,7 +5737,7 @@ entries:
     version: 1.0.26
   - apiVersion: v2
     appVersion: 0.46.0
-    created: "2024-02-29T16:30:12.273431989Z"
+    created: "2024-02-29T16:30:46.135147049Z"
     description: Frontend for Substra
     digest: d6aac5363c57ef3e635ea7a99c9fafc5224ab4f82e6545071c1dd9e28b98761e
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -5713,7 +5756,7 @@ entries:
     version: 1.0.25
   - apiVersion: v2
     appVersion: 0.45.1
-    created: "2024-02-29T16:30:12.273110713Z"
+    created: "2024-02-29T16:30:46.134817916Z"
     description: Frontend for Substra
     digest: fd206d3a0b6bc0960b32bc461507b156518d9ee179eda0d45979597c3d1ac6a0
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -5732,7 +5775,7 @@ entries:
     version: 1.0.24
   - apiVersion: v2
     appVersion: 0.45.0
-    created: "2024-02-29T16:30:12.272787323Z"
+    created: "2024-02-29T16:30:46.134475659Z"
     description: Frontend for Substra
     digest: eb1603d675f37e984a4b8865ea30b781634e9a3307a4d0e6802d7b367d48e545
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -5751,7 +5794,7 @@ entries:
     version: 1.0.23
   - apiVersion: v2
     appVersion: 0.45.0-rc1
-    created: "2024-02-29T16:30:12.272464184Z"
+    created: "2024-02-29T16:30:46.134141507Z"
     description: Frontend for Substra
     digest: a31ed1b0334c4afa0f37577e5b889294f1612832efda2d9b06279078fa64e8f9
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -5770,7 +5813,7 @@ entries:
     version: 1.0.23-rc1
   - apiVersion: v2
     appVersion: 0.44.0
-    created: "2024-02-29T16:30:12.272141505Z"
+    created: "2024-02-29T16:30:46.133786696Z"
     description: Frontend for Substra
     digest: eae4d8aa94e356ddc031a501948755c867d6302749ae0bdbdd28aa77d56bf96c
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -5789,7 +5832,7 @@ entries:
     version: 1.0.22
   - apiVersion: v2
     appVersion: 0.45.0-rc1
-    created: "2024-02-29T16:30:12.271817534Z"
+    created: "2024-02-29T16:30:46.133234187Z"
     description: Frontend for Substra
     digest: 1f1916575ebc58c088bbb1982e904a3d6daff8983b8d1ceddb884977ead6a1e5
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -5808,7 +5851,7 @@ entries:
     version: 1.0.22-rc1
   - apiVersion: v2
     appVersion: 0.44.0
-    created: "2024-02-29T16:30:12.2714865Z"
+    created: "2024-02-29T16:30:46.132345252Z"
     description: Frontend for Substra
     digest: ccb1fe6e386b3e40dfb46115d54d51f8cf9dc8097e8909f29d2cfb51ffea6001
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -5827,7 +5870,7 @@ entries:
     version: 1.0.21
   - apiVersion: v2
     appVersion: 0.43.0
-    created: "2024-02-29T16:30:12.271150968Z"
+    created: "2024-02-29T16:30:46.131867152Z"
     description: Frontend for Substra
     digest: f9207366223aba4d7c080e32189a781215c09b668627b27992f41f1369f01573
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -5846,7 +5889,7 @@ entries:
     version: 1.0.20
   - apiVersion: v2
     appVersion: 0.42.1
-    created: "2024-02-29T16:30:12.270813561Z"
+    created: "2024-02-29T16:30:46.131551264Z"
     description: Frontend for Substra
     digest: cbec2dc34ded138af7b256218669ebfe37bb7fd33c994d78fb9ea1feb43a2416
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -5865,7 +5908,7 @@ entries:
     version: 1.0.19
   - apiVersion: v2
     appVersion: 0.42.0
-    created: "2024-02-29T16:30:12.270469112Z"
+    created: "2024-02-29T16:30:46.131237008Z"
     description: Frontend for Substra
     digest: 0dd711dff0432d4bf939a1588b70ae6928bd9487f6a54319a42e2cf7ecf32cd7
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -5884,7 +5927,7 @@ entries:
     version: 1.0.18
   - apiVersion: v2
     appVersion: 0.41.0
-    created: "2024-02-29T16:30:12.27010237Z"
+    created: "2024-02-29T16:30:46.130919818Z"
     description: Frontend for Substra
     digest: 1c80452148335584999f227f5fe15bfd1c9b5597b44f8cb000865340b062489c
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -5903,7 +5946,7 @@ entries:
     version: 1.0.17
   - apiVersion: v2
     appVersion: 0.40.0
-    created: "2024-02-29T16:30:12.269286678Z"
+    created: "2024-02-29T16:30:46.130600303Z"
     description: Frontend for Substra
     digest: 8abc7f299b139cc55d73567b7954d119e33d8e4e118de317f94c154e665b6f35
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -5922,7 +5965,7 @@ entries:
     version: 1.0.16
   - apiVersion: v2
     appVersion: 0.39.2
-    created: "2024-02-29T16:30:12.268509192Z"
+    created: "2024-02-29T16:30:46.130275408Z"
     description: Frontend for Substra
     digest: 8a7f76a22b282cb29bd3979bc7caddd104310b637a07dece3da9550f9694150f
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -5941,7 +5984,7 @@ entries:
     version: 1.0.15
   - apiVersion: v2
     appVersion: 0.39.1
-    created: "2024-02-29T16:30:12.268154453Z"
+    created: "2024-02-29T16:30:46.129947026Z"
     description: Frontend for Substra
     digest: c56f92486a20f77cca3bbe0cfd86e49eb59cc87b7e4c4dfa5ce12b6c8d5a951e
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -5960,7 +6003,7 @@ entries:
     version: 1.0.14
   - apiVersion: v2
     appVersion: 0.38.1
-    created: "2024-02-29T16:30:12.267827577Z"
+    created: "2024-02-29T16:30:46.129577178Z"
     description: Frontend for Substra
     digest: d103ffd9014992b9e0387f4a57dde5266bf86c96b61c184783662b7003bfc194
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -5979,7 +6022,7 @@ entries:
     version: 1.0.13
   - apiVersion: v2
     appVersion: 0.38.1
-    created: "2024-02-29T16:30:12.267487886Z"
+    created: "2024-02-29T16:30:46.129254307Z"
     description: Frontend for Substra
     digest: 0664051f890a39132cc278ff190c318bf8613c81d29b8e3e70ffdf8a7f86fcec
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -5998,7 +6041,7 @@ entries:
     version: 1.0.12
   - apiVersion: v2
     appVersion: 0.38.1
-    created: "2024-02-29T16:30:12.267119912Z"
+    created: "2024-02-29T16:30:46.128925955Z"
     description: Frontend for Substra
     digest: 347c88d3753ba82917009e462954e1c26f42cf7d3e29298f95ddb1612ba36256
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -6014,7 +6057,7 @@ entries:
     version: 1.0.11
   - apiVersion: v2
     appVersion: 0.38.0
-    created: "2024-02-29T16:30:12.266748432Z"
+    created: "2024-02-29T16:30:46.128615578Z"
     description: Frontend for Substra
     digest: 7ac842a0eb6ab8520cea1018dbb731a51ec319df3c977cf72af230123dcdffa7
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -6030,7 +6073,7 @@ entries:
     version: 1.0.10
   - apiVersion: v2
     appVersion: 0.37.0
-    created: "2024-02-29T16:30:12.275337321Z"
+    created: "2024-02-29T16:30:46.136975584Z"
     description: Frontend for Substra
     digest: 9bc752e1bda1e7ddf456f75efed0e12a7f659eb0bfad4b5962d3031383620166
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -6046,7 +6089,7 @@ entries:
     version: 1.0.9
   - apiVersion: v2
     appVersion: 0.36.0
-    created: "2024-02-29T16:30:12.275030893Z"
+    created: "2024-02-29T16:30:46.13667263Z"
     description: Frontend for Substra
     digest: ef47f9c86c632d0aac5ceffe603866fde437223c32b6c386191b4670d057abb3
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -6062,7 +6105,7 @@ entries:
     version: 1.0.8
   - apiVersion: v2
     appVersion: 0.35.0
-    created: "2024-02-29T16:30:12.274723724Z"
+    created: "2024-02-29T16:30:46.136371369Z"
     description: Frontend for Substra
     digest: aed10e1b6cf4b5abec3a1187e2639dc1b5f6810dd662d4dec241eb6adbd8b1ce
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -6078,7 +6121,7 @@ entries:
     version: 1.0.7
   - apiVersion: v2
     appVersion: 0.34.0
-    created: "2024-02-29T16:30:12.274418879Z"
+    created: "2024-02-29T16:30:46.136072492Z"
     description: Frontend for Substra
     digest: cb9bd07c2bf9617859f087527eba2a6ceb13ec12c479c04e6f7c6dc4be181885
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -6094,7 +6137,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: 0.33.0
-    created: "2024-02-29T16:30:12.274114024Z"
+    created: "2024-02-29T16:30:46.135773365Z"
     description: Frontend for Substra
     digest: c1a81eda666c8603928aeb09faf01651c7a7f1410202bc46acd4ad91337973fc
     icon: https://avatars.githubusercontent.com/u/84009910?s=400
@@ -6109,7 +6152,7 @@ entries:
     - substra-frontend-1.0.4.tgz
     version: 1.0.4
   - apiVersion: v1
-    created: "2024-02-29T16:30:12.266408701Z"
+    created: "2024-02-29T16:30:46.128296704Z"
     description: Main package for Substra Frontend
     digest: 86f7f91e9680203ae9f60143223b764d373fd30cca7b008427426a8515c92a30
     home: https://substra.org/
@@ -6123,4 +6166,4 @@ entries:
     urls:
     - substra-frontend-1.0.0-alpha.2.tgz
     version: 1.0.0-alpha.2
-generated: "2024-02-29T16:30:10.937063574Z"
+generated: "2024-02-29T16:30:44.784011273Z"
